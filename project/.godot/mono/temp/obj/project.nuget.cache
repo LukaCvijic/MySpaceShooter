@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "C6wE0U7xr3CRTa1apNT/a7hi3412NkYpxERlKCDJj5kORd0x6fGEc4ftUsZLBdt7fo+FU/Io1zW6WvuugAAcug==",
+  "success": true,
+  "projectFilePath": "/home/luka/Documents/godot/projects/MySpaceShooter/project/SpaceShooter.csproj",
+  "expectedPackageFiles": [
+    "/home/luka/.nuget/packages/godot.sourcegenerators/4.1.2/godot.sourcegenerators.4.1.2.nupkg.sha512",
+    "/home/luka/.nuget/packages/godotsharp/4.1.2/godotsharp.4.1.2.nupkg.sha512",
+    "/home/luka/.nuget/packages/godotsharpeditor/4.1.2/godotsharpeditor.4.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
