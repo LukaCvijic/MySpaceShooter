@@ -1,3 +1,37 @@
-[gd_scene format=3 uid="uid://c6tlckdsg5dhp"]
+[gd_scene load_steps=4 format=3 uid="uid://c6tlckdsg5dhp"]
+
+[ext_resource type="Script" path="res://home/home_screen.cs" id="1_ucyga"]
+[ext_resource type="Texture2D" uid="uid://cntepyva3ryw4" path="res://images/Background/Space01.png" id="2_b316q"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_x4wll"]
+line_spacing = 10.0
+font_size = 50
 
 [node name="HomeScreen" type="Node2D"]
+script = ExtResource("1_ucyga")
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(576, 325)
+scale = Vector2(0.96, 2.17333)
+texture = ExtResource("2_b316q")
+
+[node name="Title" type="Label" parent="."]
+offset_left = 437.0
+offset_top = 53.0
+offset_right = 715.0
+offset_bottom = 132.0
+text = "My Shooter"
+label_settings = SubResource("LabelSettings_x4wll")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="."]
+offset_left = 464.0
+offset_top = 330.0
+offset_right = 688.0
+offset_bottom = 445.0
+theme_override_colors/font_color = Color(0.454902, 0.239216, 0.564706, 1)
+theme_override_font_sizes/font_size = 78
+text = "Play"
+
+[connection signal="pressed" from="Button" to="." method="startGame"]

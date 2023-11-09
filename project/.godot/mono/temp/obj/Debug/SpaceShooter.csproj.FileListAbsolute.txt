@@ -1,0 +1,17 @@
+/home/luka/Documents/godot/projects/MySpaceShooter/project/.godot/mono/temp/bin/Debug/SpaceShooter.deps.json
+/home/luka/Documents/godot/projects/MySpaceShooter/project/.godot/mono/temp/bin/Debug/SpaceShooter.runtimeconfig.json
+/home/luka/Documents/godot/projects/MySpaceShooter/project/.godot/mono/temp/bin/Debug/SpaceShooter.dll
+/home/luka/Documents/godot/projects/MySpaceShooter/project/.godot/mono/temp/bin/Debug/SpaceShooter.pdb
+/home/luka/Documents/godot/projects/MySpaceShooter/project/.godot/mono/temp/bin/Debug/GodotSharp.dll
+/home/luka/Documents/godot/projects/MySpaceShooter/project/.godot/mono/temp/bin/Debug/GodotSharpEditor.dll
+/home/luka/Documents/godot/projects/MySpaceShooter/project/.godot/mono/temp/obj/Debug/SpaceShooter.csproj.AssemblyReference.cache
+/home/luka/Documents/godot/projects/MySpaceShooter/project/.godot/mono/temp/obj/Debug/SpaceShooter.GeneratedMSBuildEditorConfig.editorconfig
+/home/luka/Documents/godot/projects/MySpaceShooter/project/.godot/mono/temp/obj/Debug/SpaceShooter.AssemblyInfoInputs.cache
+/home/luka/Documents/godot/projects/MySpaceShooter/project/.godot/mono/temp/obj/Debug/SpaceShooter.AssemblyInfo.cs
+/home/luka/Documents/godot/projects/MySpaceShooter/project/.godot/mono/temp/obj/Debug/SpaceShooter.csproj.CoreCompileInputs.cache
+/home/luka/Documents/godot/projects/MySpaceShooter/project/.godot/mono/temp/obj/Debug/SpaceShooter.csproj.CopyComplete
+/home/luka/Documents/godot/projects/MySpaceShooter/project/.godot/mono/temp/obj/Debug/SpaceShooter.dll
+/home/luka/Documents/godot/projects/MySpaceShooter/project/.godot/mono/temp/obj/Debug/refint/SpaceShooter.dll
+/home/luka/Documents/godot/projects/MySpaceShooter/project/.godot/mono/temp/obj/Debug/SpaceShooter.pdb
+/home/luka/Documents/godot/projects/MySpaceShooter/project/.godot/mono/temp/obj/Debug/SpaceShooter.genruntimeconfig.cache
+/home/luka/Documents/godot/projects/MySpaceShooter/project/.godot/mono/temp/obj/Debug/ref/SpaceShooter.dll
