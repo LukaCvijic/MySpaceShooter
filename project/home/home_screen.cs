@@ -19,19 +19,3 @@ public partial class home_screen : Node2D
 		GetTree().Root.AddChild(newScene);
 	}
 }
-
-/*
- public Node simultaneousScene;
-   
-   public MyClass()
-   {
-   simultaneousScene = ResourceLoader.Load<PackedScene>("res://levels/level2.tscn").Instantiate();
-   }
-   
-   public void _AddASceneManually()
-   {
-   // This is like autoloading the scene, only
-   // it happens after already loading the main scene.
-   GetTree().Root.AddChild(simultaneousScene);
-   }
- */

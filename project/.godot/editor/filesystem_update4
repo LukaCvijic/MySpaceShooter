@@ -1,3 +1,8 @@
 res://home/home_screen.tscn
-res://home/home_screen.cs
 res://game/game.tscn
+res://player/player.tscn
+res://laser/laser.tscn
+res://home/home_screen.cs
+res://laser/laser.cs
+res://player/player.cs
+res://game/game.cs
