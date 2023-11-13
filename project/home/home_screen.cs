@@ -15,7 +15,6 @@ public partial class home_screen : Node2D
 
 	public void startGame()
 	{
-		Node newScene = ResourceLoader.Load<PackedScene>("res://game/game.tscn").Instantiate();
-		GetTree().Root.AddChild(newScene);
-	}
+        GetTree().ChangeSceneToFile("res://game/game.tscn");
+    }
 }

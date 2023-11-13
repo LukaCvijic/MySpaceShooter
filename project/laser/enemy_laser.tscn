@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://bio4asrrx2lpq"]
+
+[ext_resource type="Script" path="res://laser/enemy_laser.cs" id="1_65t6b"]
+[ext_resource type="Texture2D" uid="uid://cpneqy01kukrd" path="res://images/Spaceships/laserBlue.png" id="2_p0w15"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_wjgx1"]
+radius = 7.0
+height = 36.0
+
+[node name="EnemyLaser" type="Area2D"]
+script = ExtResource("1_65t6b")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.03, 0.03)
+texture = ExtResource("2_p0w15")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -1)
+shape = SubResource("CapsuleShape2D_wjgx1")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+position = Vector2(0, -22)
+scale = Vector2(0.8, 0.15)
+
+[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]

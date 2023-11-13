@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://42fomt7k6f55" path="res://images/Spaceships/laser.png" id="1_3v3k6"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ahe4l"]
-radius = 8.0
+radius = 7.0
 height = 36.0
 
 [node name="Laser" type="Area2D"]
